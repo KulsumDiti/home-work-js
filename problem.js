@@ -60,10 +60,11 @@ for (let i=55; i<=85; i++) {
 
   for(i=61; i<=100; i++){
 
-    if(i%2==0){
-        continue;
+    if(i%2!==0){
+
+       console.log(`Odd: ${i}`);
     }
-    console.log(i);
+    
   }
 
         // Part 2: Find all even numbers from 78 to 98
@@ -74,33 +75,44 @@ for (let i=78; i<=98; i++){
     continue;
   }
   console.log(i);
-}
+}            
+              OR
 
+ for(i=78; i<=98; i++){
+
+      if(i%2==0){
+            
+        console.log(`Even: ${i}`);
+      }
+                
+    }
 
 // Problem-8: Display sum of all the odd numbers from 91 to 129.
 
- let sum = 0;
- for(i=91; i<=129; i++){
+    let sum = 0;
 
-   if(i%2==0){
-     continue;
- }
-   sum = sum + i;
-   //console.log(sum); OR
-}
-   console.log(sum);
+    for (let i = 91; i <= 129; i++) {
+        if (i % 2 !== 0) {  
+                sum += i;          
+           }
+       }
+
+      console.log(sum);
+
 
 // Problem-9:Display sum of all the even numbers from 51 to 85.
 
   let sum2 = 0;
-  for(i=51; i<=85; i++){
-      if(i%2!==0){
-      continue;
-   }
-     sum2 = sum2 + i;
-  // console.log(sum2); OR
-}
-   console.log(sum2);
+
+  for (let i = 51; i <= 85; i++) {
+
+          if (i % 2 == 0) {  
+              sum2 += i;          
+           }
+       }
+
+        console.log(sum2);
+
 
 
 // Problem- 10: Implement a countdown timer that counts down from 81 to 65.
