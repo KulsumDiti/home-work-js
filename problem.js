@@ -3,11 +3,24 @@
 
 for(let i=1; i<=200; i++){
 
-    if(i==100){
+    if(i==101){
         break;
     }
     console.log(i);
 }
+
+//Problem-2 Write a while loop that adds numbers starting from 1, but stops (using break) as soon as the sum reaches or exceeds 100
+
+  let sum1 = 0;
+  let i = 1;
+  while(i<=100){
+    sum1 = sum1 + i;
+    if(sum1>=100){
+    break;
+  }
+  console.log(sum);
+  i++
+ }
 
 // Problem-3: Write a loop to print even numbers from 1 to 40. Use continue to skip odd numbers.
 
@@ -67,6 +80,12 @@ for (let i=78; i<=98; i++){
 let sum = 0;
 
 for(i=91; i<=129; i++){
+
+  if(i%2==0){
+    sum = sum + i;
+    continue;
+  }
+  console.log(sum);
 
 }
 
