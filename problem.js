@@ -18,9 +18,11 @@ for(let i=1; i<=200; i++){
     if(sum1>=100){
     break;
   }
-  console.log(sum);
+  console.log(sum1); 
   i++
  }
+
+//  console.log(`total result : ${sum1}`); OR
 
 // Problem-3: Write a loop to print even numbers from 1 to 40. Use continue to skip odd numbers.
 
@@ -44,7 +46,7 @@ for (let i=55; i<=85; i++) {
   }
 
 
-  // Problem-6:’’ I will invest at least 6 hrs every single day :for :next 60 days!" this message 60 times. So display this.
+  // Problem-6:"I will invest at least 6 hrs every single day :for :next 60 days!" this message 60 times. So display this.
 
   for (let i=1; i<=60; i++){
 
@@ -59,7 +61,7 @@ for (let i=55; i<=85; i++) {
   for(i=61; i<=100; i++){
 
     if(i%2==0){
-          continue;
+        continue;
     }
     console.log(i);
   }
@@ -77,19 +79,28 @@ for (let i=78; i<=98; i++){
 
 // Problem-8: Display sum of all the odd numbers from 91 to 129.
 
-let sum = 0;
+ let sum = 0;
+ for(i=91; i<=129; i++){
 
-for(i=91; i<=129; i++){
-
-  if(i%2==0){
-    sum = sum + i;
-    continue;
-  }
-  console.log(sum);
-
+   if(i%2==0){
+     continue;
+ }
+   sum = sum + i;
+   //console.log(sum); OR
 }
+   console.log(sum);
 
 // Problem-9:Display sum of all the even numbers from 51 to 85.
+
+  let sum2 = 0;
+  for(i=51; i<=85; i++){
+      if(i%2!==0){
+      continue;
+   }
+     sum2 = sum2 + i;
+  // console.log(sum2); OR
+}
+   console.log(sum2);
 
 
 // Problem- 10: Implement a countdown timer that counts down from 81 to 65.
