@@ -26,7 +26,7 @@ console.log(fruits);
 
 let touristDestinations = ["Paris", "New York", "Thailand"];
 
-touristDestinations.push("Australia");
+console.log(touristDestinations.push("Australia"));
 
 touristDestinations.push("London", "Pakistan");
 
