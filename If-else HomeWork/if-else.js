@@ -50,42 +50,46 @@ else{
 
 let monthsName = prompt();
 
-if(monthsName =='January'){
+if(monthsName =='january'){
     document.write(1);
 }
 
-else if(monthsName =='February'){
+else if(monthsName =='february'){
     document.write(2);
 }
 
-else if(monthsName =='March'){
+else if(monthsName =='march'){
     document.write(3);
 }
-else if(monthsName =='April'){
+else if(monthsName =='april'){
     document.write(4);
 }
-else if(monthsName =='May'){
+else if(monthsName =='may'){
     document.write(5);
 }
-else if(monthsName =='June'){
+else if(monthsName =='june'){
     document.write(6);
 }
-else if(monthsName =='July'){
+else if(monthsName =='july'){
     document.write(7);
 }
-else if(monthsName =='August'){
+else if(monthsName =='august'){
     document.write(8);
 }
-else if(monthsName =='September'){
+else if(monthsName =='september'){
     document.write(9);
 }
-else if(monthsName =='October'){
+else if(monthsName =='october'){
     document.write(10);
 }
-else if(monthsName =='November'){
+else if(monthsName =='november'){
     document.write(11);
 }
-else if(monthsName =='December'){
+else if(monthsName =='december'){
     document.write(12);
+}
+
+else {
+    document.write('Invailed Value');
 }
 
